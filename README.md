@@ -1,14 +1,18 @@
 
-# My First Repository
+# Claire Estey’s GEOG 712 Repository
 
 ------------------------------------------------------------------------
 
-This is my first repository. Within the project, raw, unprocessed data
-goes in the ‘data_raw’ folder, manipulated data goes in the ‘data’
-folder, figures and plots I generate are saved in the ‘figures’ folder,
-table I generate are saved in the ‘tables’ folder, my scripts (as
-rmarkdown files) are in the ‘rmarkdown’ folder, and the final paper will
-be in the ‘paper’ folder.
+This README document is for my first repository in GEOG 712. Within the
+repository, the file organization is as follows:
+
+| File Name    | Contents                                     |
+|--------------|----------------------------------------------|
+| **data_raw** | raw, unprocessed data saved as .csv files    |
+| **data**     | manipulated data saved as .csv files         |
+| **figures**  | saved figures and plots I generate           |
+| **images**   | .jpg files to be inserted into the documents |
+| **tables**   | saved output tables I generate               |
 
 # My Research Interests
 
@@ -27,6 +31,14 @@ the onset of the COVID-19 pandemic has increased *drastically*,
 resulting in concerning levels being found in our freshwater systems,
 with unknown effects on aquatic biota.
 
+``` r
+knitr::include_graphics(paste0(here(), "/images/bosmina.jpg"))
+```
+
+![](images/bosmina.jpg)<!-- -->
+
+*Bosmina sp.*, a crustaceous zooplankton commonly found in Boreal lakes.
+
 # Favourites
 
 ------------------------------------------------------------------------
@@ -40,6 +52,12 @@ My five favourite songs are as follows:
 3.  *Heat Above* by Greta Van Fleet
 4.  *And She Was* by Talking Heads
 5.  *Going Gets Tough* by The Growlers
+
+``` r
+knitr::include_graphics(paste0(here(), "/images/albums.jpg"))
+```
+
+![](images/albums.jpg)<!-- -->
 
 ## Favourite Equation
 
@@ -62,6 +80,12 @@ $$
 | **Lawren Harris**      | Original Group of Seven member known for stunning Canadian landscape paintings.                                                                     |
 | **Auguste Toulmouche** | Widely known nineteenth century painter and creator of one of my favourite paintings, *“The Hesitant Fiancee”*.                                     |
 
+``` r
+knitr::include_graphics(paste0(here(), "/images/hesitant_fiancee.jpg"))
+```
+
+![](images/hesitant_fiancee.jpg)<!-- -->
+
 # A Chunk of Code
 
 ------------------------------------------------------------------------
@@ -74,23 +98,3 @@ plot(x, y, xlab = "Months Enrolled in GEOG 712", ylab = "The Reproducibility of 
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
-
-## How to put an image in
-
-``` r
-knitr::include_graphics(paste0(here(), "/images/flipturn.jpg"))
-```
-
-![](images/flipturn.jpg)<!-- -->
-
-# Git
-
-------------------------------------------------------------------------
-
-This repository is now set up for git!
-
-# GitHub
-
-------------------------------------------------------------------------
-
-I also set up a GitHub repo :)
