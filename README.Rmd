@@ -104,6 +104,31 @@ y <- c(1, 2, 3, 4)
 plot(x, y, xlab = "Months Enrolled in GEOG 712", ylab = "The Reproducibility of My Research", type = "l")
 ```
 
+# Project Data Analysis
 
+***
 
+**List of data I have collected for my project:**
 
+1. Water Chemistry: Weekly YSI water quality measurements (dissolved oxygen, chlorophyll *a*, pH, specific conductance, water temperature)
+2. BAC Analytical Samples: Water grab samples on days 0, 1, 2, 4, 7, and 75 to determine actual concentration of BAC and percentage of homologs present.
+3. Zooplankton samples from each enclosure on days 0, 14, 35, 56, and 77 taken with a 15 L Schindler-Patalas plankton trap.
+4. Site metadata (date, time of collection, coordinates, name of person sampling, relevant notes)
+
+With this data I will be looking at the zooplankton community composition and reproductive rates. I will be using the Inverse Simpson Index to assess diversity, and generating principal response curves to look at changes in diversity independent of temporal trends.
+
+**Legal and ethical restrictions:**
+
+The main consideration while collecting this data is handling large amounts of BAC in order to spike the enclosures to the desired concentrations. Permission has been granted by ELA's Research Advisory Board (RAB) to transport pre-portioned volumes of BAC to the field to be added to the enclosures. No mixing of the chemical to reach the desired concentration is allowed in the field and must be done in ELA's chemistry lab prior to transporting to the field. 
+
+**Quick Hits for Data Management**
+
+Raw data will be kept in the *data_raw* folder within the repository, to be saved locally on a hard drive as well as backed up to GitHub. Raw data is also in a shared Microsoft Teams folder with my supervisor. 
+
+To keep file formats open, spreadsheets are saved as .csv files, word documents and power point presentations are saved as .pdf files (or .txt in the case of word docs). 
+
+Snake case will be used for naming files (this_is_an_example_of_snake_case) to eliminate the inconsistencies of capitalization and special characters. Names will be specific (for example, zooplankton_raw_counts.csv instead of my_data.csv). 
+
+Relevant standards for zooplankton collection include using a plankton trap with a standardized mesh size (53 microns) to allow data between sites and studies to be comparable. Standardized methods also exist for identifying and counting zooplankton and should be used for all ELA projects to keep data consistent between years, as well as between a reference lake and an experimental lake (for example, community composition can only be reliable if a minimum of 300 adults has been reached). ELA also has standardized data storage requirements for its researchers, and does this by creating collaborative projects on GitHub. 
+
+To document my data throughout my project, I will not only keep the raw data raw (i.e. save manipulated data sets in a separate folder while keeping the raw data intact), but I will create a GitHub repository so that every version of my data will be available, even after I have made changes. 
