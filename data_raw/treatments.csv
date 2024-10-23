@@ -1,0 +1,11 @@
+﻿enclosure,nominal_conc_ng_l,treatment_tag_ind,treatment_tag_group,lat,long,applied_date,applied_time_qac,applied_time_tritium
+M1,NA,Tritium reference,Tritium reference,NA,NA,2023-06-22,NA,10:23
+M2,20,20,20,NA,NA,2023-06-22,10:40,10:40
+M3,20000,"20,000","20,000",NA,NA,2023-06-22,10:49,10:49
+M4,632.455532,632,632,NA,NA,2023-06-22,10:45,10:45
+M5,0,Control A,Control,NA,NA,2023-06-22,10:28,10:28
+M6,0,Control B,Control,NA,NA,2023-06-22,10:33,10:33
+M7,112.47,112,112,NA,NA,2023-06-22,10:42,10:42
+M8,0,Control C,Control,NA,NA,2023-06-22,10:36,10:36
+M9,3556.55882,"3,556","3,556",NA,NA,2023-06-22,10:46,10:46
+L375,0,Lake Reference,Lake Reference,NA,NA,2023-06-22,NA,NA
